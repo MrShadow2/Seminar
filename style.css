@@ -1,0 +1,136 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+body{
+    
+    background-color: #d9d9d9;
+background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+@keyframes ani {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+.header{
+    margin-top: 50px;
+
+   
+    
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr ;
+    align-items: center;
+}
+
+.text-align{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: skyblue;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    position:relative;
+    animation : ani 2s ease-in-out infinite;
+
+    
+}
+.image{
+    height: 280px;
+    width: 220px;
+}
+.user-details{
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+table{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+     border: 1px solid black; 
+    border-collapse: collapse;
+    width: 85%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+th,td{
+    
+    padding: 10px;
+}
+#my-pie-chart {
+    height: 100px;
+    width: 100px;
+}
+#my-pie-chart {
+    border-radius: 50%;
+  }
+#my-pie-chart {
+    background: conic-gradient(  lightgreen 5.08% 30.68%,  orange 23.27% 60.47%, skyblue 20.47%);
+  }
+  .pie-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+  }
+
+  li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap:.5rem;
+    padding: 5px;
+    
+  }
+ .color{
+    border-radius: 50%;
+    background-color: lightgreen;
+    height: 20px;
+    width: 20px;
+  }
+  .color1{
+    border-radius: 50%;
+    background-color: skyblue;
+    height: 20px;
+    width: 20px;
+  }
+  .color2{
+    border-radius: 50%;
+    background-color: orange;
+    height: 20px;
+    width: 20px;
+  }
+  footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
